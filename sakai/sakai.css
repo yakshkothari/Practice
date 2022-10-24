@@ -1,5 +1,5 @@
 .first1container{
-    width: 100%;
+    /* width: 100%; */
     background-color: rgb(62, 133, 255);
     padding: 0px 20px 0px 20px;
     display: flex;
@@ -21,7 +21,7 @@
 }
 
 .thirdcointainer{
-    width: 100%;
+    /* width: 100%; */
     /* background-color: antiquewhite; */
     font-family: "Inter", Sans-serif;
     display: flex;
