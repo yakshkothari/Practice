@@ -85,7 +85,7 @@
 
 /* .boxsix{
 
-}  *
+} */
 
 .thirdcointainer{
     padding-top: 30px;
@@ -115,7 +115,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: solid; */
+    border: solid; 
     padding: 40px;
 }
 
@@ -189,4 +189,3 @@
     padding-bottom: 10%;
     padding-top: 5%;
 }
-
