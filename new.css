@@ -37,6 +37,10 @@
     font-family: "Inter", Sans-serif;
 }
 
+p:hover{
+    color:#ff00fb
+}
+
 .box{
     width: 30%;
     display: block;
