@@ -18,7 +18,7 @@
                     <h4 class="h2">Home</h4>
                 </div>
                 <div style="padding:20px"; class="about">
-                    <a href="#secondcontainer" class="h2">About</a>
+                    <a href="#secondcontainers" class="h2">About</a>
                 </div>
                 <div style="padding:20px"; class="services">
                     <a href="sakai/sakai.html" class="h2">Services</a>
@@ -29,9 +29,6 @@
                 <div style="padding:20px"; class="review">
                     <a href="#fourthcontainer" class="h2">Reviews</a>
                 </div>
-                <div style="padding:20px"; class="services">
-                    <a href="sakai/sakai.html" class="h2">Reviews</a>
-                </div>
             </div>
         </div>
     <!--Maenu Bar Ends  -->
@@ -39,32 +36,33 @@
     <br>
 
     <!-- First Cointainer Start -->
-        <div class="FirstContainer">
-            <div class="ourprocess">
-                <h2 class="h2">Our Process</h2>
-                <p class="p">We follow agile process with concrete deliverable guaranteed at each step</p>
-            </div>
+        <div class="FirstContainer" id="firstCointainer">
+            <h2 class="h2">Our Process</h2>
+            <p class="p">We follow agile process with concrete deliverable guaranteed at each step</p>
         </div>
     <!-- First Cointainer End -->
 
     <br>
 
     <!-- Second Cointainer Start -->
-        <div class="secondcontainer" id="secondcontainer">
+        <div class="secondcontainers" id="secondcontainers">
+            <div class="about h2">
+                <h2>About Us</h2>
+            </div>
             <div class="second1strow boxes">
-                <div class="boxone box">
+                <div class="boxone box" onmouseover="hide()" onmouseout="show()">
                     <img src="Icons/Take Requirements.png" alt="Take Requirements">
                     <h4 class="h2">Take requirement</h4>
                     <p class="p">Gather raw requirements about your idea</p>
                 </div>
-                <div class="boxtwo box">
+                <div class="boxtwo box" onclick="show()">
                     <img src="Icons/Refine.png" alt="Refine it further">
                     <h4 class="h2">Refine it further</h4>
                     <p class="p">Refine requirements by removing noise and make them precise and crisp</p>
                 </div>
             </div>
             <div class="second2ndrow boxes">
-                <div class="boxthree box">
+                <div class="boxthree box" onclick="colorChange()">
                     <img src="Icons/Design&Confirm.png" alt="Design and confirm">
                     <h4 class="h2">Design and confirm</h4>
                     <p class="p">Provide you with a design prototype of how the solution will look and function</p>
@@ -106,19 +104,19 @@
                     </div>
                     <p class="p"> Give us a missed call</p>
                 </div>
-                <div class="thirdsecondsecond thirdsecondcommon thirdsecondborder">
+                <div class="thirdsecondsecond thirdsecondcommon thirdsecondborder borderLeft">
                     <div class="circle">
                         <img style="padding:15px ;" src="Icons/support_agent_FILL0_wght400_GRAD0_opsz48.png" alt="Support">
                     </div>
                     <p class="p">We callback & take your booking</p>
                 </div>
-                <div class="thirdsecondthird thirdsecondcommon thirdsecondborder">
+                <div class="thirdsecondthird thirdsecondcommon thirdsecondborder borderLeft">
                     <div class="circle">
                         <img style="padding:15px ;" src="Icons/cleaning_services_FILL0_wght400_GRAD0_opsz48.png" alt="Cleaning">
                     </div>
                     <p class="p">Maid arrives at your doorstep</p>
                 </div>
-                <div class="thirdsecondfourth thirdsecondcommon">
+                <div class="thirdsecondfourth thirdsecondcommon thirdsecondborder borderLeft">
                     <div class="circle">
                         <img style="padding:15px ;" src="Icons/payments_FILL0_wght400_GRAD0_opsz48.png" alt="Payments">
                     </div>
@@ -198,7 +196,6 @@
 
             <label style="padding: 20px;" for="lname">Last Name</label>
             <input type="number">
-            
         </div>
     <!-- Fifth Cointainer End -->
     
